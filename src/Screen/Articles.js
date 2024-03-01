@@ -59,7 +59,7 @@ export default function Articles() {
   //get articles
   const getArticle = async () => {
     try {
-      const { data } = await axios.get("http://localhost:8080/api/allArticle");
+      const { data } = await axios.get("https://gathaback-1.onrender.com//api/allArticle");
       if (data?.success) {
         setArticles(data?.all);
         console.log("Successfully made request for article!!");
