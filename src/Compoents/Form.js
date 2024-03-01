@@ -29,7 +29,7 @@ export default function Form() {
     
     try {
       const { data } = await axios.post(
-        "http://Localhost:8080/api/createArticle",
+        "https://gathaback-1.onrender.com/api/createArticle",
         {
           title: credentials.title,
           description: credentials.description,
