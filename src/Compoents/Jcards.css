@@ -1,0 +1,4 @@
+.hover-card:hover {
+    background-color: black; /* Set your desired hover color */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+  }
