@@ -14,7 +14,7 @@ import Job from "../Database/Jobs.png"
 import join from "../Database/join.png";
 
 import helpline from "../Database/helpline.png"
-
+//Home Page
 export default function Home() {
   const steps = [
     {
